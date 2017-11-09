@@ -1,0 +1,36 @@
+.backdrop .btn-info {
+  position: relative;
+  color: #fff;
+  background-color: #3C78B5;
+  border-color: #3C78B5;
+  height: 120px;
+  width: 150px;
+  border-radius: 0;
+  margin-bottom: 7px;
+  margin-left: -1px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.backdrop .btn-info:hover,
+input[type="radio"] + label:hover div,
+.check-with-label:checked + .label-for-check {
+    background-color: #171B65;
+    border-color: #171B65;  
+}
+.backdrop .btn-group .btn:first-child {
+    margin-left: -1px;
+}
+
+input[type="radio"] + label > div.event-score {
+	position: absolute;
+	bottom: 30px;
+	left: 55px;
+	text-align: center;
+	width: 40px;
+}
+
+.btn-group >label {
+	font-weight: normal;
+}

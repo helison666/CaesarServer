@@ -1,0 +1,94 @@
+var map = {
+    users: {	    
+		settings: {
+		    item: 'user',
+		    url: '/users',
+			urlRoot: '/users'
+		},
+		fields: {		
+	        firstName: '',
+		    lastName: '',
+		    role: {
+			    control: 'select',
+				options: ['Teacher', 'Coordinator', 'Administrator']
+			},
+		    location: {
+			    control: 'select',
+				options: ['Chernivtsy', 'Dnipro', 'Ivano-Frankivsk', 'Kyiv', 'Lviv', 'Rivne', 'Sofia']
+			},
+		    photo: '',
+		    login: '',
+			password: ''		    
+		}
+	},	
+	groups: {
+	    settings: {
+		    item: 'group',
+		    url: '/groups',
+			urlRoot: '/groups'
+		},
+		fields: {		
+	        name: '',
+		    location: {
+			    control: 'select',
+				options: ['Chernivtsy', 'Dnipro', 'Ivano-Frankivsk', 'Kyiv', 'Lviv', 'Rivne', 'Sofia']
+			},
+			budgetOwner: {
+			    control: 'bool',
+				option: 'SoftServe'
+			},
+			direction: {
+			    control: 'select',
+				options: ['WebUI', 'JavaScript(UI)', 'LAMP', '.Net', 'Java', 'iOS', 'C/C++', 'Delphi', 'RDBMS', 'MQC', 'ATQC', 'ISTQB', 'DevOps', 'UX']
+			},
+			startDate: {
+			    control: 'date'
+			},
+			finishDate: {
+			    control: 'date'
+			},
+			teachers: {
+			    control: 'array'
+			},
+			experts: {
+			    control: 'array'
+			},
+			stage: {
+			    control: 'select',
+				options: ['planned', 'boarding', 'before-start', 'in-process', 'offering', 'finished']
+			}
+		}
+	},
+	students: {
+	    settings: {
+		    item: 'student',
+		    url: '/students',
+			urlRoot: '/students'		    
+		},
+		fields: {
+			groupId: '',
+			name: '',
+			lastName: '',
+			englishLevel: {
+			    control: 'select',
+				options: [
+				    'Elementary', 
+				    'Pre-intermediate low', 
+					'Pre-intermediate', 
+					'Pre-intermediate strong', 
+					'Intermediate low', 
+					'Intermediate', 
+					'Intermediate strong', 
+					'Upper-intermediate low', 
+					'Upper-intermediate', 
+					'Upper-intermediate strong', 
+					'Advanced'
+				]
+			},
+			CvUrl: '',
+			imageUrl: '',
+			entryScore: '',
+			approvedBy: ''
+		}
+	}
+};

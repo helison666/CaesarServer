@@ -1,0 +1,47 @@
+.content-modal-editSchedule{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1366px;
+}
+
+.resourceView {
+    height: 500px;
+    width: 200px;
+    margin: 10px;
+}
+
+.eventsView {
+	height: 500px;
+    width: 150px;
+    margin: 10px;
+}
+
+.weekView{
+	height: 500px;
+    width: 1000px;
+    margin: 10px;
+}    
+
+.copyPastView {
+    height: 500px;
+    width: 80px;
+    margin: 10px;
+}
+
+.group-item_active > p {
+    background: #fff;
+    color: #3C78B5;
+}
+
+.editGroup-buttons button.disabled {
+    color: #323232;
+}
+
+.editGroup-buttons button.save {
+    margin-right: 10px;
+}

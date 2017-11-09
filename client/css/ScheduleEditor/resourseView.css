@@ -1,0 +1,24 @@
+.backdrop .column-resource li {
+    padding: 0;
+}
+
+.backdrop [name="resourceteacher"],
+.backdrop [name="room"],
+.backdrop [name="event"] {
+    height: 119.76px;
+    width: 150px;
+    float: none;
+    background-color: #eeeeee;
+    font-weight: bold;
+}
+
+.backdrop [name="resourceteacher"],
+.backdrop [name="room"] {
+   /* margin-bottom: 144.51px;*/
+    margin-bottom: 6.51px; 
+}
+
+.backdrop .column {
+    margin-bottom: 10px;
+}
+

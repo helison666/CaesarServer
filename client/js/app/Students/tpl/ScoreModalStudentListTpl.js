@@ -1,0 +1,26 @@
+templates.scoreModalStudentListTpl = _.template([
+    '<section class="modal-window modal_scoreStudentlist">',
+        '<section class="form-inline form-wrapper container">',
+            '<div class="header-modal-scoreStudentlist">',
+                '<span>Student list</span>',
+            '</div>',
+            '<table class="students_list">',
+            '<thead>',
+                '<tr>',
+                    '<th class="name">Name</th>',
+                    '<th>Photo</th>',
+                    '<th class="incoming">Incoming Test</th>',
+                    '<th class="entry">Entry score</th>',
+                    '<th>Approved by</th>',
+                '</tr>',
+            '</thead>',
+            '<tbody class="tableBodyStudents">',
+
+            '</tdoby>',
+            '</table>',
+            '<button><i class="fa fa-chevron-left" aria-hidden="true"></i></button>',
+            '<button><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+            '<button class = "fa fa-times-circle-o fa-3x btn-icon exit"></button>',
+        '</section>',
+    '</section>'
+].join(''));

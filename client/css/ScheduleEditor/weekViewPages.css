@@ -1,0 +1,19 @@
+.week-number-bottom,
+.week {
+	font-size: 25px;
+    color: #171B65;
+}
+
+.prevWeek,
+.nextWeek {
+	color: #3C78B5;
+    font-size: 2.5em;
+    margin-right: 40px;
+}
+
+.prevWeek:hover,
+.nextWeek:hover {
+	color:#171B65;
+    cursor: pointer;
+}
+

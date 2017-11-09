@@ -1,0 +1,157 @@
+.students_list {
+	width: 100%;
+}
+
+.students_list td, th {
+    border: 1px solid #B9CEE0;
+}
+
+.students_list tbody td:nth-child(1) {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #493BB7;
+}
+
+.students_list tbody td:nth-child(1):hover {
+    color: #747BAD;
+}
+
+.students_list tbody tr:nth-child(even) {
+    background: #F5FEFF;
+}
+
+.students_list thead tr th {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/*.students_list tbody tr td:nth-child(1),
+.students_list tbody tr td:nth-child(3) {
+    text-align: left;
+    padding-left: 10px;
+}*/
+
+.students_list tbody tr td:nth-child(2),
+.iconca {
+    text-align: center !important;
+    padding-left: 0 !important;
+}
+
+.students_list tbody tr:hover {
+    background: #DEDEDE;
+}
+
+.modal_editStudentlist,
+.modal_secondStudentlist {
+    text-align: center;
+}
+.students_list thead>tr {
+    height: 50px;
+    background: #DEDEDE
+}
+
+.students_list thead> tr> .name, .engLevel,
+.entry, .incoming {
+    cursor: pointer;
+}
+
+.students_list thead> tr> .name:hover, .engLevel:hover,
+.entry:hover, .incoming:hover {
+    color: #3C78B5;
+ 
+}
+
+.students_list thead> tr> .fullName, .englishLevel,
+.entryScore, .incomingTest {
+    cursor: pointer;
+}
+
+.students_list thead> tr> .fullName:hover, .englishLevel:hover,
+.entryScore:hover, .incomingTest:hover {
+    color: #3C78B5;
+ 
+}
+
+.students_list .fullName {
+    width: 185px;
+}
+
+.students_list .photo(2) {
+    width: 65px;
+}
+
+.students_list .englishLevel {
+    width: 150px;
+}
+
+.students_list .entryScore {
+    width: 100px;
+}
+
+.students_list .incomingTest {
+    width: 120px;
+}
+
+.students_list .approvedBy {
+    width: 110px;
+}
+
+.students_list tbody>tr {
+    height: 40px;
+}
+
+.students_list tbody tr td img {
+    max-height: 25px;
+    max-width: 25px;
+}
+
+.editStudentBtn {
+    color: #3C78B5;
+    display: inline-block;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: none !important;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.editStudentBtn:focus {    
+    border: none;
+    outline:none !important;
+}
+
+.header-modal-editStudentlist > button {
+    font-size: 40px;
+    color: #3C78B5;
+}
+
+.header-modal-editStudentlist > button,
+.modal_editStudentlist > section > .exit  {
+    float: right;
+    margin-right: 30px;
+    background: inherit;
+}
+
+.header-modal-editStudentlist > span {
+    font-size: 30px;
+
+/*}*/
+
+/*th {
+    text-align: center;
+}
+*/
+    float: left;
+    clear: both;
+}
+
+
+.modal_editStudentlist > section > .exit {
+    margin: 30px 200px 0 0;
+}
+
+.uploadCSV {
+    visibility: hidden;
+}

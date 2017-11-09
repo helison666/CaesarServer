@@ -1,0 +1,100 @@
+.buttons {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*.students_list thead tr td,
+.students_list tbody tr td {
+    text-align: left;
+    padding-left: 10px;
+}*/
+
+.buttons button {
+	background: transparent;
+}
+
+.fa-trash {
+	font-size: xx-large;
+	cursor: pointer;
+}
+
+.fa-download {
+	font-size: x-large;
+	cursor: pointer;
+}
+
+.gear {
+	font-size: x-large;
+	cursor: pointer;
+}
+.gear:hover,
+.fa-download:hover,
+.fa-trash:hover {
+	color: #3C78B5;	
+}
+/*
+.BrowseCV,
+.BrowsePhoto {
+	width: 120% !important;
+	margin-right: 157%;
+} */
+
+.header-modal-editSchedule > button {
+    font-size: 40px;
+    color: #3C78B5;
+}
+
+.header-modal-editSchedule > button,
+.modal_editStudentlist > section > .exit {
+    float: right;
+    background: inherit;
+}
+
+.header-modal-editSchedule > span,
+.header-modal-editSchedule > span {
+    font-size: 30px;
+
+/*}*/
+
+/*th {
+    text-align: center;
+}
+*/
+    float: left;
+    clear: both;
+}
+
+
+.modal_editSchedule > section > .exit {
+    margin: 30px 200px 0 0;
+}
+
+.gear,
+.fa-download,
+.fa-trash {
+	padding: 0 10px;	
+}
+
+.fa-chevron-left {
+	position: absolute;
+	font-size: x-large;
+    background-color: initial;
+	color: #3C78B5;
+    left: 15px;
+    top: 50%;
+	
+}
+
+.fa-chevron-right {
+	position: absolute;
+	font-size: x-large;
+	color: #3C78B5;
+    background-color: initial;
+	right: 15px;
+	top:50%;
+}
+
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
+	color: #171B65;
+}

@@ -1,0 +1,67 @@
+.paste-schedule, 
+.paste-schedule:hover, 
+.paste-schedule:active {
+	height: 125px;
+	width: 80px;
+	margin-bottom: 8px;
+}
+
+.paste-schedule {
+	background: url('../../img/schedule_icons/paste.png') top left no-repeat;
+}
+
+.paste-schedule:hover,
+.paste-schedule:active {
+	background: url('../../img/schedule_icons/paste-active.png') top left no-repeat;
+}
+
+.copy-this-schedule, 
+.copy-this-schedule:hover, 
+.copy-this-schedule:active {
+	height: 125px;
+	width: 80px;
+	margin-bottom: 8px;
+}
+
+.copy-this-schedule {
+	background: url('../../img/schedule_icons/copy-to-buffer.png') top left no-repeat;
+}
+
+.copy-this-schedule:hover, 
+.copy-this-schedule:active {
+	background: url('../../img/schedule_icons/copy-to-buffer-active.png') top left no-repeat;
+}
+
+.copy-next-week, 
+.copy-next-week:active, 
+.copy-next-week:hover {
+	height: 125px;
+	width: 80px;
+	margin-bottom: 8px;
+}
+
+.copy-next-week {
+	background: url('../../img/schedule_icons/copy-next-week.png') top left no-repeat;
+}
+
+.copy-next-week:active,
+.copy-next-week:hover {
+	background: url('../../img/schedule_icons/copy-next-week-active.png') top left no-repeat;
+}
+
+.copy-to-end, 
+.copy-to-end:hover, 
+.copy-to-end:active {
+	height: 125px;
+	width: 80px;
+	margin-bottom: 8px;
+}
+
+.copy-to-end {
+	background: url('../../img/schedule_icons/copy-to-end.png') top left no-repeat;
+}
+
+.copy-to-end:hover,
+.copy-to-end:active {
+	background: url('../../img/schedule_icons/copy-to-end-active.png') top left no-repeat;
+}

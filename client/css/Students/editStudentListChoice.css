@@ -1,0 +1,72 @@
+.editGroupWindow {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.editGroup-wrapper {
+    background: #171B65;
+    min-width: 1000px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.editGroup-wrapper > div {
+    width: 64%;
+    margin: 0 auto;
+}
+
+.editGroup-wrapper ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.group-item {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.group-item > p {
+    margin: 0;
+    min-width: 140px;
+    min-height: 90px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #3C78B5;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    height: 13vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.editGroup-buttons {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.editGroup-buttons button {
+    background-color: transparent;
+    color: #FFFFFF
+}
+
+.editGroup-buttons button:hover,
+.editGroup-buttons button:focus {
+    color: #3C78B5;
+}
+
+.editGroup-buttons button {
+    margin-right: 25px;
+}

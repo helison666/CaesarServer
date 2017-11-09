@@ -1,0 +1,25 @@
+/*.schedule-editor {
+	margin-top: -20px;
+}*/
+
+.schedule-editor .Heading {
+	height: 50px;
+}
+
+.schedule-editor .monday,
+.schedule-editor .tuesday,
+.schedule-editor .wednesday,
+.schedule-editor .thursday,
+.schedule-editor .friday {
+	font-size: 20px;
+}
+
+.number-week {
+	font-size: 15px;
+}
+
+.scheduleEditorWeek-view {
+	height: 470px;
+	overflow: auto;
+	border-bottom: 1px solid black;
+}
